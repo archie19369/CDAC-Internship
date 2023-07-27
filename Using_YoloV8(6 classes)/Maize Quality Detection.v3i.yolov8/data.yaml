@@ -1,0 +1,14 @@
+path: C:\\Users\\archa\\Desktop\\C-DAC\\Using_YoloV8(6 classes)\\Maize Quality Detection.v3i.yolov8
+train: .\\train\\images
+val: .\\valid\\images
+
+
+nc: 6
+names: ['Dm', 'Im', 'Im-Sh', 'Wv', 'fm', 'pure']
+
+roboflow:
+  workspace: cdac-0ls9l
+  project: maize-quality-detection-5klwo
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/cdac-0ls9l/maize-quality-detection-5klwo/3
